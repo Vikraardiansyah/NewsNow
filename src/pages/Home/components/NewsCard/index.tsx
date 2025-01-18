@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, Text, View} from 'react-native';
 import styles from './styles';
 import {formatDate} from '../../../../utils/formatDate';
-import {IArticles} from '../../../../types.ts/newsType';
+import {IArticles} from '../../../../types/newsType';
 
 const NewsCard = ({articles}: {articles: IArticles}) => {
   return (

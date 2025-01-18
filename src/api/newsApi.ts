@@ -1,4 +1,4 @@
-import {INews} from '../types.ts/newsType';
+import {INews} from '../types/newsType';
 
 export async function getTopNews() {
   try {

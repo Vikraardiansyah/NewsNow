@@ -3,7 +3,7 @@ import {FlatList, Pressable, Text, TextInput, View} from 'react-native';
 import {getSearchNews, getTopNews} from '../../api/newsApi';
 
 import styles from './styles';
-import {IArticles, INews} from '../../types.ts/newsType';
+import {IArticles, INews} from '../../types/newsType';
 import NewsCard from './components/NewsCard';
 
 const Home = () => {
